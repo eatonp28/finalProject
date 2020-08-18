@@ -1,4 +1,7 @@
 h2 {
-    font-family: serif;
-    color: blue;
+    border: solid;
+}
+
+p {
+    border: solid;
 }
