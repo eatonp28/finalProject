@@ -19,18 +19,21 @@
 
                 <div>
                   <input type="text" placeholder="Search">
-                  <input type="button" value="Submit">
+                  <input type="button" value="Submit" sty;e>
                   <p style="border: 3%; font: bolder; text-align: left; color: white; background-color: black;">This website is being constructed to promote BBQ Content. Please be patient while we work. In the meantime watch the video below to learn how to make a killer brisket</p>
                   <iframe width="1903" height="804" src="https://www.youtube.com/embed/Dn5ZJz2Ta78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
                 
                 <div class="d-flex justify-content-center">
-                  <!-- Button to Open the Modal -->
+                  <!-- Button to Open t  e Modal -->
                   <button style="background-color: black;" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
                     Access Account
                   </button>
-                
+                  <button style="background-color: black;" class="btn btn-primary" data-toggle="modal" data-target="#miModal">
+                    Register Account
+                  </button>
+
                   <!-- The Modal -->
                   <div class="modal fade" id="myModal">
                     <div class="modal-dialog">
@@ -46,6 +49,33 @@
                         <div class="modal-body">
                           Please enter your credentials below
                           <input type="text" placeholder="Email">
+                          <input type="text" placeholder="Password">
+                        </div>
+                        
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-danger" data-dismiss="modal">Enter</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal fade" id="miModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                      
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                          <h4 class="modal-title">Register Account</h4>
+                          <button type="button" class="close" data-dismiss="modal">×</button>
+                        </div>
+                        
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          Please enter your credentials below
+                          <input type="text" placeholder="Name"> </br>
+                          <input type="text" placeholder="Email"> </br>
                           <input type="text" placeholder="Password">
                         </div>
                         
